@@ -6,14 +6,18 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `black`,
-      marginBottom: `1.45rem`,
+      marginBottom: `2rem`
     }}
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        // padding: `1.45rem 1.0875rem`,
+        padding: `2rem 1.0875rem`,
+        // textDecoration: `none`
+
+
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -22,6 +26,8 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
+            float: `left`,
+
           }}
         >
           {siteTitle}
@@ -34,6 +40,11 @@ const Header = ({ siteTitle }) => (
               margin: 0,
               color: `white`,
               textDecoration: `none`,
+              paddingLeft: 25,
+
+              float: `right`
+
+              
             }}
           >
               Contact
@@ -45,6 +56,8 @@ const Header = ({ siteTitle }) => (
               color: `white`,
               textDecoration: `none`,
               paddingLeft: 25,
+              float: `right`
+
       
             }}
           >
@@ -57,6 +70,8 @@ const Header = ({ siteTitle }) => (
               color: `white`,
               textDecoration: `none`,
               paddingLeft: 25,
+              float: `right`
+
       
             }}
           >
